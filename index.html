@@ -7,6 +7,36 @@
 <title>Simple AugNet</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<style>
+	body{
+		background-color:lightgrey;
+	}
+	.main{
+		background-color:#860038;
+		border-color:#630633;
+	}
+	.sub{
+		background-color:rgb(237, 237, 237);
+		border-color:rgb(68, 68, 68);
+	}
+	a .main{
+		color:white;
+		text-decoration: none;
+	}
+	a:hover .main{
+		color:grey;
+		text-decoration: none;
+	}
+	.btn-primary{
+		background-color:#860038;
+		border-color:#630633;
+	}
+	.btn-primary:hover{
+		background-color:#630633;
+		border-color:#630633;
+		color:grey;
+	}
+</style>
 </head>
 <body>
 	<div class="container">
@@ -22,37 +52,37 @@
 		<div class="row">
 			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
 				<a href="https://mail.google.com/mail/u/1/">
-					<div class="well" align="center">
+					<div class="well main" align="center">
 					<i class="fa fa-envelope fa-3x"></i></br>G-Mail</div>
 				</a>
 			</div>
 			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
 				<a href="http://www.google.com/calendar/hosted/augsburg.edu/">
-					<div class="well" align="center">
+					<div class="well main" align="center">
 					<i class="fa fa-calendar fa-3x"></i></br>Calendar</div>
 				</a>
 			</div>
 			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
 				<a href="https://moodle.augsburg.edu/moodle2016/auth/shibboleth/index.php">
-					<div class="well" align="center">
+					<div class="well main" align="center">
 					<i class="fa fa-medium fa-3x"></i></br>Moodle</div>
 				</a>
 			</div>
 			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
 				<a href="http://web.augsburg.edu/NetStorage/">
-					<div class="well" align="center">
+					<div class="well main" align="center">
 					<i class="fa fa-hdd-o fa-3x"></i></br>AugNet Folders</div>
 				</a>
 			</div>
 			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
 				<a href="https://drive.google.com/drive/u/1/">
-					<div class="well" align="center">
+					<div class="well main" align="center">
 					<i class="fa fa-cloud fa-3x"></i></br> G-Drive</div>
 				</a>
 			</div>
 			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
 				<a href="http://augnet.augsburg.edu/protected/moodlecommunity">
-					<div class="well" align="center">
+					<div class="well main" align="center">
 					<i class="fa fa-medium fa-3x"></i></br> Moodle Community</div>
 				</a>
 			</div>
@@ -60,12 +90,12 @@
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<a href="#admin" data-toggle="collapse">
-					<div class="well" style="padding-top:0px; padding-bottom:10px; margin-bottom:0px;">
+					<div class="well main" style="padding-top:0px; padding-bottom:10px; margin-bottom:0px;">
 						<h3><center>Administrative</center></h3>
 					</div>
 				</a>
 				<div class="collapse" id="admin">
-					<div class="well" style="margin-bottom:0px;">
+					<div class="well sub" style="margin-bottom:0px;">
 						<div class="row">
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" style="padding-bottom:10px">
 								<center>
@@ -91,12 +121,12 @@
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<a href="#misc" data-toggle="collapse">
-					<div class="well" style="padding-top:0px; padding-bottom:10px; margin-bottom:0px; margin-top:20px;">
+					<div class="well main" style="padding-top:0px; padding-bottom:10px; margin-bottom:0px; margin-top:20px;">
 						<h3><center>Miscellaneous</center></h3>
 					</div>
 				</a>
 				<div class="collapse" id="misc">
-					<div class="well" style="margin-bottom:0px;">
+					<div class="well sub" style="margin-bottom:0px;">
 						<div class="row">
 							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" style="padding-bottom:10px">
 								<center>
@@ -125,12 +155,12 @@
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<a href="#about" data-toggle="collapse">
-					<div class="well" style="padding-top:0px; padding-bottom:10px; margin-top:20px; margin-bottom:0px;">
+					<div class="well main" style="padding-top:0px; padding-bottom:10px; margin-top:20px; margin-bottom:0px;">
 						<h3><center>About // Help</center></h3>
 					</div>
 				</a>
 				<div id="about" class="collapse">
-					<div class="well" style="margin-bottom:0px;">
+					<div class="well sub" style="margin-bottom:0px;">
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 								<h4><center>About</center></h4>
